@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Coolor Palettes</Navbar.Brand>
+          <Navbar.Brand href="#home">Color Palettes</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
