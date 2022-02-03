@@ -1,3 +1,17 @@
-.hero{
-    min-height: 95vh;
+.hero {
+  min-height: 95vh;
+}
+
+.rainbow-box {
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  color: black;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    #ede0d4,
+    #f9f9f9
+
+  );
 }
