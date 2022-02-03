@@ -1,0 +1,35 @@
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colorContainer{
+    width: 300px;
+    display: flex;
+    margin: 20px;
+}
+
+.colorBlock1{
+    background: red;
+    width: 50px;
+    height: 100px;
+}
+
+.colorBlock2{
+    background: orange;
+    width: 50px;
+    height: 100px;
+}
+
+.colorBlock3{
+    background: green;
+    width: 50px;
+    height: 100px;
+}
+
+.colorBlock4{
+    background: blue;
+    width: 50px;
+    height: 100px;
+}
