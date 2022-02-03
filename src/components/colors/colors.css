@@ -1,3 +1,9 @@
+.title{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-size: 50px;
+}
+
 .colors{
     display: flex;
     flex-wrap: wrap;
