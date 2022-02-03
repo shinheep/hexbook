@@ -15,6 +15,7 @@
     height: 100px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    
 }
 
 .colorBlock2{
@@ -35,4 +36,9 @@
     height: 100px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.colorBlock1:hover, .colorBlock2:hover, .colorBlock3:hover, .colorBlock4:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
