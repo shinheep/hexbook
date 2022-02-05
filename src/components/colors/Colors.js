@@ -1,6 +1,20 @@
-import "./colors.css"
+import "./colors.css";
+import {useEffect} from 'react';
 
 const Colors = () => {
+    
+    const makeApiCall = () => {
+        return(
+            fetch('http://localhost:8000/palettes/')
+            .then((response)=>response.json())
+            .then((data)=>console.log(data))
+        )
+    }
+
+    useEffect(()=>{
+        makeApiCall()
+    }, [])
+    
     return(
         <div className="mainColorsContainer">
             <h1 className="title">Palettes</h1>
