@@ -24,10 +24,10 @@ const Colors = () => {
     const colorPalettes = palettes && palettes.map((palette, index) => {
         return(
              <div className="palette">
-                <div style={{background: `${palette.hex1}`}} >{palette.hex1}</div>
-                <div style={{background: `${palette.hex2}`}} >{palette.hex2}</div>
-                <div style={{background: `${palette.hex3}`}} >{palette.hex3}</div>
-                <div style={{background: `${palette.hex4}`}} >{palette.hex4}</div>
+                <div style={{background: `${palette.hex1}`, width: "400px", margin: "0 auto"}} >{palette.hex1}</div>
+                <div style={{background: `${palette.hex2}`, width: "400px", margin: "0 auto"}} >{palette.hex2}</div>
+                <div style={{background: `${palette.hex3}`, width: "400px", margin: "0 auto"}} >{palette.hex3}</div>
+                <div style={{background: `${palette.hex4}`, width: "400px", margin: "0 auto"}} >{palette.hex4}</div>
              </div>
         )
     })

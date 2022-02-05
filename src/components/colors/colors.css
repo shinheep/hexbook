@@ -11,8 +11,7 @@
 }
 
 .palette{
-    --logo-bg-colour: var(--blue); 
-    background-color: var(--logo-bg-colour);
+    margin: 15px;
 }
 
 .colorContainer{
