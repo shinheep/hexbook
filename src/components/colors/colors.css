@@ -7,7 +7,10 @@
 .color{
     height: 100px;
     width: 80px;
-    display: inline-block
+    display: inline-block;
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    color: white;
 }
 
 .color:hover{
@@ -23,6 +26,8 @@
 
 .palette{
     margin: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .colorContainer{
