@@ -4,6 +4,17 @@
     font-size: 50px;
 }
 
+.color{
+    height: 100px;
+    width: 80px;
+    display: inline-block
+}
+
+.color:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .colors{
     display: flex;
     flex-wrap: wrap;
@@ -17,208 +28,4 @@
 .colorContainer{
     display: flex;
     margin: 20px;
-}
-
-.colorBlock1{
-    background: #9b5de5;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    
-}
-
-.colorBlock2{
-    background: #f15bb5;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock3{
-    background: #fee440;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock4{
-    background: #00bbf9;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.colorBlock5{
-    background: #cdb4db;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.colorBlock6{
-    background: #ffc8dd;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock7{
-    background: #ffafcc;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock8{
-    background: #bde0fe;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.colorBlock9{
-    background: #ffcdb2;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.colorBlock10{
-    background: #ffb4a2;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock11{
-    background: #e5989b;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock12{
-    background: #6d6875;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.colorBlock13{
-    background: #99e2b4;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.colorBlock14{
-    background: #67b99a;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock15{
-    background: #469d89;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock16{
-    background: #14746f;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.colorBlock17{
-    background: #ff99c8;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.colorBlock18{
-    background: #fcf6bd;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock19{
-    background: #d0f4de;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock20{
-    background: #a9def9;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.colorBlock21{
-    background: #757bc8;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.colorBlock22{
-    background: #8e94f2;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock23{
-    background: #bbadff;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock24{
-    background: #ddbdfc;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.colorBlock25{
-    background: #424b54;
-    width: 50px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.colorBlock26{
-    background: #b38d97;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock27{
-    background: #d5aca9;
-    width: 50px;
-    height: 100px;
-}
-
-.colorBlock28{
-    background: #ebcfb2;
-    width: 50px;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-
-
-.colorBlock1:hover, .colorBlock2:hover, .colorBlock3:hover, .colorBlock4:hover, .colorBlock5:hover, .colorBlock6:hover, .colorBlock7:hover, .colorBlock8:hover, .colorBlock9:hover, .colorBlock10:hover, .colorBlock11:hover, .colorBlock12:hover, .colorBlock13:hover, .colorBlock14:hover, .colorBlock15:hover, .colorBlock16:hover, .colorBlock17:hover, .colorBlock18:hover, .colorBlock19:hover, .colorBlock20:hover, .colorBlock21:hover, .colorBlock22:hover, .colorBlock23:hover, .colorBlock24:hover, .colorBlock25:hover, .colorBlock26:hover, .colorBlock27:hover, .colorBlock28:hover {
-    opacity: 0.7;
-    cursor: pointer;
 }
