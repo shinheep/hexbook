@@ -1,28 +1,49 @@
 import "./colors.css";
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
+import { palette } from "@mui/system";
+
 
 const Colors = () => {
+    
+    const [palettes, setPalettes] = useState()
     
     const makeApiCall = () => {
         return(
             fetch('http://localhost:8000/palettes/')
             .then((response)=>response.json())
-            .then((data)=>console.log(data))
+            .then((data)=>setPalettes(data))
         )
     }
 
     useEffect(()=>{
         makeApiCall()
     }, [])
+
+    console.log(palettes)
+
+    const colorPalettes = palettes && palettes.map((palette, index) => {
+        return(
+             <div className={palette}>
+                <div>{palette.hex1}</div>
+                <div>{palette.hex2}</div>
+                <div>{palette.hex3}</div>
+                <div>{palette.hex4}</div>
+             </div>
+        )
+    })
+
+    console.log(colorPalettes)
     
     return(
         <div className="mainColorsContainer">
             <h1 className="title">Palettes</h1>
+
+            {colorPalettes}
         
             <div className="colors">
 
                 <div className="colorContainer">
-                    <div className="colorBlock1"/>
+                    <div className="colorBlock1">asdf</div>
                     <div className="colorBlock2"/>
                     <div className="colorBlock3"/>
                     <div className="colorBlock4"/>
