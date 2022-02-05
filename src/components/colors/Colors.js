@@ -23,11 +23,11 @@ const Colors = () => {
 
     const colorPalettes = palettes && palettes.map((palette, index) => {
         return(
-             <div className={palette}>
-                <div>{palette.hex1}</div>
-                <div>{palette.hex2}</div>
-                <div>{palette.hex3}</div>
-                <div>{palette.hex4}</div>
+             <div className="palette">
+                <div style={{background: `${palette.hex1}`}} >{palette.hex1}</div>
+                <div style={{background: `${palette.hex2}`}} >{palette.hex2}</div>
+                <div style={{background: `${palette.hex3}`}} >{palette.hex3}</div>
+                <div style={{background: `${palette.hex4}`}} >{palette.hex4}</div>
              </div>
         )
     })
