@@ -23,11 +23,14 @@ const Colors = () => {
 
     const colorPalettes = palettes && palettes.map((palette, index) => {
         return(
-             <div className="palette">
-                <div className="color" style={{background: `${palette.hex1}`, margin: "0 auto", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px"}} >{palette.hex1}</div>
-                <div className="color" style={{background: `${palette.hex2}`, margin: "0 auto"}} >{palette.hex2}</div>
-                <div className="color" style={{background: `${palette.hex3}`, margin: "0 auto"}} >{palette.hex3}</div>
-                <div className="color" style={{background: `${palette.hex4}`, margin: "0 auto", borderTopRightRadius: "20px", borderBottomRightRadius: "20px"}} >{palette.hex4}</div>
+             <div className="paletteContainer">
+                <div className="palette">
+                    <div className="color" style={{background: `${palette.hex1}`, margin: "0 auto", borderTopLeftRadius: "20px", borderBottomLeftRadius: "20px"}} >{palette.hex1}</div>
+                    <div className="color" style={{background: `${palette.hex2}`, margin: "0 auto"}} >{palette.hex2}</div>
+                    <div className="color" style={{background: `${palette.hex3}`, margin: "0 auto"}} >{palette.hex3}</div>
+                    <div className="color" style={{background: `${palette.hex4}`, margin: "0 auto", borderTopRightRadius: "20px", borderBottomRightRadius: "20px"}} >{palette.hex4}</div>
+                </div>
+                <i className="far fa-heart"></i>
              </div>
         )
     })

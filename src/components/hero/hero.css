@@ -6,6 +6,12 @@
   min-height: 95vh;
 }
 
+.description{
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
 .rainbow-box {
   border-radius: 5px;
   height: 40px;
@@ -17,4 +23,12 @@
     #ede0d4,
     #f9f9f9
   );
+}
+
+@media only screen and (min-width: 678px){
+
+}
+
+@media only screen and (min-width: 992px){
+
 }

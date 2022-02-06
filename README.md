@@ -10,4 +10,4 @@ Frontend will be built with React. Backend will be built with Python and Django.
 
 View a gif of what I have so far:
 
-<img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1643785390/Screen_Recording_2022-02-01_at_11_02_09_PM_AdobeCreativeCloudExpress_myn5nk.gif" width="250" height="250"/>
+<img src="https://res.cloudinary.com/dxqwpud0l/image/upload/v1644129700/Screen_Recording_2022-02-05_at_10_40_30_PM_AdobeCreativeCloudExpress_zrbnqa.gif" width="250" height="250"/>
