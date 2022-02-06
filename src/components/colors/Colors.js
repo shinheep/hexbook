@@ -21,6 +21,10 @@ const Colors = () => {
 
     console.log(palettes)
 
+    const addToFavorites = () => {
+        console.log("Heart!")
+    }
+
     const colorPalettes = palettes && palettes.map((palette, index) => {
         return(
              <div className="paletteContainer">
@@ -30,7 +34,7 @@ const Colors = () => {
                     <div className="color" style={{background: `${palette.hex3}`, margin: "0 auto"}} >{palette.hex3}</div>
                     <div className="color" style={{background: `${palette.hex4}`, margin: "0 auto", borderTopRightRadius: "20px", borderBottomRightRadius: "20px"}} >{palette.hex4}</div>
                 </div>
-                <i className="far fa-heart"></i>
+                <i onClick={addToFavorites} className="far fa-heart"></i>
              </div>
         )
     })
