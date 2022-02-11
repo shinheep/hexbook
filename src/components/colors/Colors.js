@@ -12,6 +12,7 @@ const Colors = () => {
             fetch('http://localhost:8000/palettes/')
             .then((response)=>response.json())
             .then((data)=>setPalettes(data))
+            .catch((err)=>console.error(err))
         )
     }
 
