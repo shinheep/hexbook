@@ -17,7 +17,13 @@
   height: 40px;
   width: 150px;
   color: black;
-  border: none;
+  border: 1px solid lightgray;
+  background: white;
+}
+
+.rainbow-box:hover{
+  opacity: 0.4;
+  transition-duration: 1s;
   background: linear-gradient(
     90deg,
     #ede0d4,
